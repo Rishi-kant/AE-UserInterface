@@ -1,0 +1,39 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 18rem;
+    width: 19rem;
+    border: 1px solid;
+    padding-left: 2rem;
+}
+.line{
+    border: 1px solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 90%;
+}
+.btn{
+    display: flex;
+    width:40% ;
+    border: none;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    border-radius: 5px;
+}
+.para{
+  display: flex;
+  align-items: center;
+  
+}
+.explore{
+    display: flex;
+    align-items: center; 
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
