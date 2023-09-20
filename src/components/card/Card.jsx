@@ -9,20 +9,20 @@ import { MdOutlineMail } from 'react-icons/md';
 import { AiFillCaretRight} from 'react-icons/ai';
 
 
-function Card() {
+function Card({plan,bgcol,pric1,pricf,users,storage,content,arrowcol}) {
   return (
     <div className={style.container}>
-      <h2>Basic</h2>
-      <h5>$10.90/m0</h5>
-      <h3>$9.99/mo</h3>
-      <button className={style.btn}>Get Started <BsArrowRight/></button>
+      <h2>{plan}</h2>
+      <h5 className={style.price}>${pric1}/mo</h5>
+      <h3>${pricf}/mo</h3>
+      <button className={style.btn} style={bgcol}>Get Started <BsArrowRight/></button>
       <div className={style.line}></div>
    
       <p >What you'l gate :</p>
-      <div className={style.para}><BiUser/> Upto 25 users</div>
-      <div className={style.para}><TiCloudStorageOutline/> Upto 25gb storage</div>
-      <div className={style.para}><MdOutlineMail/> Email support</div>
-      <div className={style.explore}>EXPLORE FEATURES <AiFillCaretRight className={style.exploreLogo}/></div>
+      <div className={style.para}><BiUser/> Upto {users} users</div>
+      <div className={style.para}><TiCloudStorageOutline/> Upto {storage}gb storage</div>
+      <div className={style.para}><MdOutlineMail/> {content}</div>
+      <div className={style.explore}>EXPLORE FEATURES <AiFillCaretRight className={style.exploreLogo} style={arrowcol}/></div>
     </div>
   )
 }

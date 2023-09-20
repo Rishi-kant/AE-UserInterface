@@ -1,5 +1,64 @@
 .container{
     height: 90vh;
-    width: 10%;
-    background-color: red;
+    width: 9rem;
+}
+.profilecard{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17.1px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.img{
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.buttonsDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 66vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbuttons{
+ display: flex;
+ align-items: center;
+   border: 1px solid;
+   width: 70%;
+   height: 2rem;
+   margin-top: 2rem;
+   border-color: rgb(218, 212, 212);
+   gap: .5rem;
+   padding-left: .5rem;
+   cursor: pointer;
+}
+.navbuttons:hover{
+    background-color: skyblue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.logoutbtn{
+  width: 100%;
+  height: 2rem;
+  margin-top: auto;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  justify-content: center;
+  color: rgb(35, 140, 226);
+  cursor: pointer;
+}
+.logoutbtn:hover{
+    background-color: skyblue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.logo{
+    color: rgb(35, 140, 226);
 }

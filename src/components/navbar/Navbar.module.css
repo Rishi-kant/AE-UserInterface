@@ -4,4 +4,40 @@
     height: 10vh;
     width: 100vw;
     background-color: rgb(174, 228, 249);
+    display: flex;
+    align-items: center;
+}
+.logoimg{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+.name{
+    width: 90%;
+    height: 2rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.navigat{
+    width: 3rem;
+    height: 2rem;
+    background-color: white;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.infoDiv{
+    width: 25%;
+    display: flex;
+    margin-right: 3rem;
+    margin-left: auto;
 }

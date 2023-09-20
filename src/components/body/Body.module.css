@@ -1,6 +1,7 @@
 .container {
   height: 90vh;
-  width: 87vw;
+  width: 88vw;
+ 
 }
 .infosec {
   width: 90%;
@@ -30,8 +31,22 @@
   padding-bottom: 2px;
   border-radius: 1rem;
   cursor: pointer;
+  background-color: rgb(189, 216, 239);
+}
+.btn2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: none;
+  background-color: transparent;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 .btn:hover {
+  background-color: skyblue;
+}
+.btn2:hover{
   background-color: skyblue;
 }
 .contentdiv {
@@ -43,19 +58,68 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
+  
 }
 .plansDiv {
   display: flex;
   align-items: center;
-   gap:6rem ;
+  flex-wrap: wrap;
+  gap:6rem ;
+   
 }
 .lowerDiv {
   display: flex;
   gap: 5rem;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
 .verticalcard {
-  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   width: 35rem;
-  height: 15rem;
+  height: 14rem;
+  border-radius: 10px;
+}
+.leftDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  margin-left: 2rem;
+}
+.rightDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+  margin-left: 1rem;
+}
+.para{
+  display: flex;
+  align-items: center;
+  
+}
+.btnuseless{
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 1rem;
+}
+.note{
+  margin-left: auto;
+  width: fit-content;
+  margin-right: 5rem;
+  margin-top: 10px;
+  color:rgb(34, 180, 238) ;
+}
+@media (max-width: 750px) {
+   .contentdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
 }

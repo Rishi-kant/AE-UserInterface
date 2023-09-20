@@ -3,4 +3,34 @@
     height: 90vh;
     width: 3vw;
     background-color: rgb(174, 228, 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.not{
+    background-color: white;
+    color: rgb(35, 140, 226);
+    width: 80%;
+    height: 3rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: auto;
+   
+}
+.plus{
+    background-color: rgb(35, 140, 226);
+    height: 2rem;
+    width: 60%;
+    color: rgb(226, 83, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-left: auto;
+    margin-bottom: 1rem;
 }
